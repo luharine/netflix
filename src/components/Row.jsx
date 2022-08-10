@@ -6,7 +6,7 @@ import {MdChevronLeft,MdChevronRight} from 'react-icons/md';
 
 export default function Row({title, fetchURL,rowID}) {
     const [movies,setMovie]=useState([]);
-    const [like,setLike]=useState(false);
+    
     useEffect(()=>{
         axios.get(fetchURL).then((response)=>{
             setMovie(response.data.results);
