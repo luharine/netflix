@@ -2,7 +2,7 @@
 import React from 'react'
 import {FaRegHeart, FaHeart} from 'react-icons/fa';
 
-import { useEffect,useState } from 'react';
+import {useState } from 'react';
 
 
 export default function Movie({item}) {
