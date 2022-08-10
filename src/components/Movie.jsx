@@ -2,11 +2,11 @@
 import React from 'react'
 import {FaRegHeart, FaHeart} from 'react-icons/fa';
 
-import {useState } from 'react';
+
 
 
 export default function Movie({item}) {
-    const [like,setLike]=useState(false);
+  
   return (
     
  <div  className='w-[160px] sm:w-[200px md:w-[240px] lg:w-[280px] relative p-2 inline-block cursor-pointer'>
