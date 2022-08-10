@@ -8,8 +8,8 @@ export default function Navbar() {
        </Link>
         <div>
           
-           <Link > <button className='text-white  px-6 py-3.5 rounded cursor-pointer' >Sign In</button></Link>
-           <Link >  <button className='bg-red-600 text-white px-6 py-3.5 rounded cursor-pointer'>Sign Up</button></Link>
+           <Link to='/login'> <button className='text-white  px-6 py-3.5 rounded cursor-pointer' >Sign In</button></Link>
+           <Link to='/signup'>  <button className='bg-red-600 text-white px-6 py-3.5 rounded cursor-pointer'>Sign Up</button></Link>
         </div>
     </div>
   )
